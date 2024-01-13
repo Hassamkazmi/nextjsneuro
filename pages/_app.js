@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
         id="track-pageview-pixel"
         src="https://connect.facebook.net/en_US/fbevents.js"
         onLoad={() => {
-          fbq('init', '230622039592089');
-          fbq('track', 'PageView');
+          // fbq('init', '230622039592089');
+          // fbq('track', 'PageView');
         }}
       />
         

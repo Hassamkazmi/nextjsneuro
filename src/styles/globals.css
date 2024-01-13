@@ -22,3 +22,11 @@ body {
 }
 
 
+.flex.flex-col.items-center.space-y-4.mt-4.add-class-head{
+  flex-direction: row-reverse;
+    display: flex;
+    width: 25vh;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-left: 50px;
+}
