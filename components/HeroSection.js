@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Fade } from "react-awesome-reveal";
 
 const HeroSection = () => {
 
@@ -54,6 +55,7 @@ const HeroSection = () => {
 
       <div className="mx-auto max-w-screen-xl px-4 py-4 text-center lg:px-12 lg:py-4">
         {/* Next.js Image component for optimized image loading */}
+        <Fade>
         <div className="centered-image max-w-full lg:max-w-[800px] pb-16">
           <Image
           style={{ width:'100%' }}
@@ -65,6 +67,7 @@ const HeroSection = () => {
           layout="responsive" // This makes the image scale nicely to the parent element's width
           />
         </div>
+        </Fade>
       </div>
     </section>
   );

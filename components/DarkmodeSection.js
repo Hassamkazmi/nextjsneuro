@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Bounce } from "react-awesome-reveal";
 
 const DarkModeSection = () => {
   return (
@@ -10,12 +11,14 @@ const DarkModeSection = () => {
           <p className="text-black">Keep things fresh by toggling dark mode on/off whenever you like, it&apos;s beautifully satisfying in both.</p>
         </div>
         <div className="flex justify-center"> {/* Center horizontally */}
+        <Bounce duration="1000">
           <Image
             src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/darkmode_demo.webp"
             alt="Template"
             width={600}  // Set your desired width
             height={400} // Set your desired height
           />
+          </Bounce>
         </div>
       </div>
     </section>

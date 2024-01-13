@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+// FAQSection.jsx
 
+import React, { useState } from 'react';
+ 
 const FAQSection = () => {
   // State to track the open/close state of FAQ items
   const [isOpen, setIsOpen] = useState([false, false, false, false, false]);
@@ -24,7 +26,7 @@ const FAQSection = () => {
       <div className="flex flex-col items-center md:space-x-8 md:mt-16 mt-8">
         <div className="w-full md:w-6/12 lg:w-6/12 mx-auto">
           {/* FAQ Item 0 */}
-          <div className={`bg-gray-200 rounded-lg p-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[0] ? 'open' : ''}`} onClick={() => toggleFAQ(0)}>
+          <div className={`faq-item bg-gray-200 rounded-lg p-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[0] ? 'open' : ''}`} onClick={() => toggleFAQ(0)}>
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-xl leading-5 text-gray-800">What is a Notion Template?</h3>
               {/* Plus Icon */}
@@ -33,13 +35,14 @@ const FAQSection = () => {
                 <path d="M4.16602 10H15.8327" stroke="black" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
+            
             <p id="para1" className={`font-normal text-base leading-6 text-gray-700 mt-4 w-11/12 ${isOpen[0] ? 'block' : 'hidden'}`}>
-        A Notion template is a pre-designed layout in the <a href="https://affiliate.notion.so/scq8k2tmgpnc" className="text-blue-500">Notion app, a super popular note-taking app for students </a>, especially among ADHDers. The template provides a ready-to-use structure for organizing notes, tasks, and schedules. It simplifies setup and is customizable to individual needs.
+              A Notion template is a pre-designed layout in the <a href="https://affiliate.notion.so/scq8k2tmgpnc" className="text-blue-500">Notion app, a super popular note-taking app for students </a>, especially among ADHDers. The template provides a ready-to-use structure for organizing notes, tasks, and schedules. It simplifies setup and is customizable to individual needs.
             </p>
           </div>
 
-          {/* FAQ Item 1 */}
-          <div className={`bg-gray-200 rounded-lg p-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[1] ? 'open' : ''}`} onClick={() => toggleFAQ(1)}>
+             {/* FAQ Item 1 */}
+             <div className={`bg-gray-200 rounded-lg p-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[1] ? 'open' : ''}`} onClick={() => toggleFAQ(1)}>
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-xl leading-5 text-gray-800">How does this work?</h3>
               {/* Plus Icon */}

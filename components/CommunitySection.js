@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import { Bounce } from "react-awesome-reveal";
+import NumberCounter from 'number-counter';
 
 const CommunitySection = () => {
   return (
@@ -11,6 +13,7 @@ const CommunitySection = () => {
         </div>
 
         {/* Image Container with Centering Classes */}
+        <Bounce>
         <div className="flex justify-center w-full">
           <Image 
             src={`https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/community_demo.webp?v=${new Date().getTime()}`} 
@@ -20,19 +23,19 @@ const CommunitySection = () => {
             className="mx-auto"
           />        
           </div>
-
+          </Bounce>
         <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-16 lg:px-6">
           <dl className="grid max-w-screen-md text-gray-900 sm:grid-cols-3 mx-auto justify-items-center">
             <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
-              <dt className="mb-1 text-3xl md:text-4xl font-bold">1,354</dt>
+              <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={1354} delay={4}/></dt>
               <dd className="mb-4 font-light text-black">Fellow study buddies</dd>
             </div>
             <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
-              <dt className="mb-1 text-3xl md:text-4xl font-bold">27,245</dt>
+              <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={27245} delay={4}/></dt>
               <dd className="mb-4 font-light text-black">Notes created</dd>
             </div>
             <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
-              <dt className="mb-1 text-3xl md:text-4xl font-bold">51</dt>
+              <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={51} delay={4}/></dt>
               <dd className="mb-4 font-light text-black">Countries </dd>
             </div>
           </dl>

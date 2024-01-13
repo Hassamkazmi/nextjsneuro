@@ -12,24 +12,25 @@ import AboutSection from '../components/AboutSection';
 import FAQSection from '../components/FAQSection';
 import FinalCTA from '../components/FinalCTASection';
 import FooterSection from '../components/FooterSection';
+import { Fade } from "react-awesome-reveal";
 
-const IndexPage = () => {  
+const IndexPage = () => {
   return (
     <>
       <HeaderSection />
       <HeroSection />
-      <BenefitsSection />
-      <FeaturesSection />
-      <DemoSection />
+      <Fade duration={2000}><BenefitsSection /></Fade>
+      <Fade duration={2000}><FeaturesSection /></Fade>
+      <Fade duration={2000}> <DemoSection /></Fade>
       <DarkModeSection />
       <CommunitySection />
-      <PricingSection />
-      <AboutSection />
-      <FAQSection />
-      <FinalCTA />
+      <Fade duration={2000}><PricingSection /></Fade>
+      <Fade duration={2000}><AboutSection /></Fade>
+      <Fade duration={2000}><FAQSection /></Fade>
+      <Fade duration={1000}><FinalCTA /></Fade>
       <FooterSection />
     </>
   );
-}
+};
 
 export default IndexPage;

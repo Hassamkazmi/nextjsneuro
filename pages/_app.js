@@ -32,8 +32,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="preload" href="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/logo.webp" as="image" />
         <link rel="preload" href="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/maindemo.webp" as="image" />
-        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-        <script src="bower_components/aos/dist/aos.js"></script> 
 
         
       </Head>
