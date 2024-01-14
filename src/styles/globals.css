@@ -30,3 +30,10 @@ body {
     margin-top: -50px;
     margin-left: 50px;
 }
+
+.header-section-1 {
+  display: contents;
+}
+.for-flex-css{
+  display: flex;
+}

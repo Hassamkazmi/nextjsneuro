@@ -24,7 +24,7 @@ const FinalCTA = () => {
 
 
   return (
-    <section className="pt-52 pb-52 bg-gray-50 Final_CTA">
+    <section className="pt-20 pb-52 bg-gray-50 Final_CTA">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16">
 
         <Slide duration={1000}>

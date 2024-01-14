@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Bounce } from 'react-awesome-reveal';
 
 const FeaturesSection = () => {
   return (
@@ -16,6 +17,8 @@ const FeaturesSection = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Task Card 1 */}
+
+            <Bounce duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
               <div className="flex-shrink-0">
                               <Image className="w-10 h-10" src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/planner.webp" 
@@ -26,8 +29,11 @@ const FeaturesSection = () => {
               <div className="pt-5 text-lg font-semibold text-black">Seamless Organisation</div>
               <p className="pt-1 text-gray-700 text-center">No more distractions. Set tasks, reminders, deadlines, schedules all in one place.</p>
             </div>
+            </Bounce>
+            
 
             {/* Task Card 2 */}
+            <Bounce duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
               <div className="flex-shrink-0">
                               <Image style={{ display: 'block' }} className="w-12 h-12" src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/artificial-intelligence.webp"
@@ -38,8 +44,11 @@ const FeaturesSection = () => {
               <div className="pt-5 text-lg font-medium text-black">Built-in AI</div>
               <p className="pt-1 text-gray-700 text-center">Transform notes into essay plans, summarise lecture topics, and more with Notion AI!</p>
             </div>
+            </Bounce>
+           
 
             {/* Task Card 3 */}
+            <Bounce  duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
               <div className="flex-shrink-0">
                               <Image style={{ display: 'block' }} className="w-10 h-10" src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/graduation-cap--v1.webp"
@@ -50,8 +59,11 @@ const FeaturesSection = () => {
               <div className="pt-5 text-lg font-medium text-black">Easy Tutorials</div>
               <p className="pt-1 text-gray-700 text-center"> Notion beginners can ease into this system with full how-to videos on every page.</p>
             </div>
+            </Bounce>
+           
 
             {/* Task Card 4 */}
+            <Bounce  duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
               <div className="flex-shrink-0">
                               <Image style={{ display: 'block' }} className="w-10 h-10" src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/paint-brush.webp"
@@ -62,8 +74,11 @@ const FeaturesSection = () => {
               <div className="pt-5 text-lg font-medium text-black">Full Customization</div>
               <p className="pt-1 text-gray-700 text-center">Like Notion, customization is easy. Change colors, icons, and layout however you like!</p>
             </div>
+            </Bounce>
+            
 
             {/* Task Card 5 */}
+            <Bounce  duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
               <div className="flex-shrink-0">
                               <Image style={{ display: 'block' }} className="w-10 h-10" 
@@ -75,8 +90,9 @@ const FeaturesSection = () => {
               <div className="pt-5 text-lg font-medium text-black">Easy Migration</div>
               <p className="pt-1 text-gray-700 text-center">Moving from another platform is as easy as 1,2, CTRL + V ... Just Copy, Paste, and Go!</p>
             </div>
-
+            </Bounce>
             {/* Task Card 6 */}
+            <Bounce duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
               <div className="flex-shrink-0">
                               <Image style={{ display: 'block' }} className="w-10 h-10" 
@@ -88,6 +104,8 @@ const FeaturesSection = () => {
               <div className="pt-5 text-lg font-medium text-black">Centralized Storage</div>
               <p className="pt-1 text-gray-700 text-center">Revision Notes, Flashcards, Essay plans, and Extra Reading - all just one click away.</p>
             </div>
+            </Bounce>
+
           </div>
         </div>
       </div>
