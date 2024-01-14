@@ -52,14 +52,14 @@ const HeaderSection = () => {
   };
 
   const scrollToTop = () => {
-    const element = document.getElementById('hero'); // Replace 'hero' with the actual ID of the element you want to scroll to
-    if (element) {
-        element.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-        });
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
+
+    if (c > 0) {
+        window.requestAnimationFrame(scrollToTop);
+        window.scrollTo(0, c - c / 8);
     }
 };
+
   return (
     <header>
       {/* ... (your Facebook Pixel and SpeedInsights components) */}
