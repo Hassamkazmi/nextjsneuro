@@ -3,6 +3,7 @@ import Script from 'next/script';
 import HeaderSection from '../components/HeaderSection';
 import HeroSection from '../components/HeroSection';
 import BenefitsSection from '../components/BenefitsSection';
+import BlazzingSection from '../components/BlazzingSection';
 import FeaturesSection from '../components/FeaturesSection';
 import DemoSection from '../components/DemoSection';
 import DarkModeSection from '../components/DarkmodeSection';
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <HeroSection />
       <Fade duration={2000}><BenefitsSection /></Fade>
       <Fade duration={2000}><FeaturesSection /></Fade>
+      <Fade duration={2000}><BlazzingSection /></Fade>
       <Fade duration={2000}> <DemoSection /></Fade>
       <DarkModeSection />
       <CommunitySection />

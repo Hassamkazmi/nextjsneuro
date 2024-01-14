@@ -96,6 +96,8 @@ const PricingSection = () => {
           </div>
           {/* Pricing Card for Standard */}
           <div className="relative flex flex-col p-6 w-80 md:w-72 text-center text-white bg-black rounded-2xl border border-gray-200 shadow-xl mt-8 md:mt-0">
+            
+          
             <div
               className="absolute top-0 right-0 px-3 py-1 bg-blue-600 rounded-bl rounded-tr text-white text-xs uppercase font-bold"
               style={{ transform: "translate(25%, -50%)" }}
