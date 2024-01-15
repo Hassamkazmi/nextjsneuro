@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { Bounce, Slide } from "react-awesome-reveal";
 import { TiTick } from "react-icons/ti";
-import pic11 from "../assets/2.png"
 
 const DarkModeSection = () => {
   return (
@@ -56,7 +55,7 @@ const DarkModeSection = () => {
           <Image
             width={2432}
             height={1442}
-            src={pic11}
+            src="https://res.cloudinary.com/dc143mtxk/image/upload/v1705354011/jsnvus7ysm6uhencdf5a.png"
             alt="Flashcards Demo"
           />
           <div></div>

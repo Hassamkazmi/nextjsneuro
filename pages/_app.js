@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="preload" href="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/logo.webp" as="image" />
         <link rel="preload" href="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/maindemo.webp" as="image" />
+        <link rel="preload" href="https://res.cloudinary.com/dc143mtxk/image/upload/v1705354011/jsnvus7ysm6uhencdf5a.png" as="image" />
 
         <script
           dangerouslySetInnerHTML={{
