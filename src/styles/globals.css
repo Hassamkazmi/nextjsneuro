@@ -49,3 +49,7 @@ body {
   scale: 1.1;
 }
 
+.flex-12 {
+  display: flex;
+  /* margin: 2px -45px; */
+}
