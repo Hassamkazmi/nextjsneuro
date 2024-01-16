@@ -64,11 +64,12 @@ const HeaderSection = () => {
     <header>
       {/* ... (your Facebook Pixel and SpeedInsights components) */}
       <div
-        className="full-header fixed top-0 left-0 right-0 bg-white lg:bg-opacity-30 lg:backdrop-blur-lg"
+        className="full-header fixed top-0 left-0 right-0 lg:bg-opacity-30 lg:backdrop-blur-lg"
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <nav className="px-8 py-5 lg:px-6">
-          <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
+        <nav className="px-8 py-5 lg:px-6 lg:bg-opacity-30 lg:backdrop-blur-lg"
+        style={{ backdropFilter: "blur(15px)" }}>
+          <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between" >
             <a href="#hero" className="flex items-center" onClick={scrollToTop}>
               <Image
                 width={56}
@@ -111,11 +112,12 @@ const HeaderSection = () => {
                   ? "block transition-all duration-2000 ease-in"
                   : "hidden"
               }`}
+
             >
               <Fade duration={1000}>
                 <div
                   className="flex flex-col items-center space-y-4 mt-4 add-class-head lg:bg-opacity-30 lg:backdrop-blur-lg"
-                  style={{ backdropFilter: "blur(10px)" }}
+                  style={{ backdropFilter: "blur(12px)" }}
                 >
                   <a
                     onClick={() => scrollToMiddle("features")}

@@ -24,22 +24,32 @@ const CommunitySection = () => {
           />        
           </div>
           </Bounce>
-        <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-16 lg:px-6">
-          <dl className="grid max-w-screen-md text-gray-900 sm:grid-cols-3 mx-auto justify-items-center">
-            <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
-              <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={1354} delay={4}/></dt>
-              <dd className="mb-4 font-light text-black">Fellow study buddies</dd>
-            </div>
-            <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
-              <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={27245} delay={4}/></dt>
-              <dd className="mb-4 font-light text-black">Notes created</dd>
-            </div>
-            <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
-              <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={51} delay={4}/></dt>
-              <dd className="mb-4 font-light text-black">Countries </dd>
-            </div>
-          </dl>
-        </div>
+          <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-16 lg:px-6">
+          <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-16 lg:px-6">
+  <dl className="grid max-w-screen-md text-gray-900 sm:grid-cols-e md:grid-cols-3 gap-4 mx-auto justify-items-center newclass-1">
+    <div className="sm:flex sm:flex-col md:block md:w-auto">
+      <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
+        <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={1354} delay={4}/></dt>
+        <dd className="mb-4 font-light text-black">Fellow study buddies</dd>
+      </div>
+    </div>
+    <div className="sm:flex sm:flex-col md:block md:w-auto">
+      <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
+        <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={27245} delay={4}/></dt>
+        <dd className="mb-4 font-light text-black">Notes created</dd>
+      </div>
+    </div>
+    <div className="sm:flex sm:flex-col md:block md:w-auto">
+      <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">
+        <dt className="mb-1 text-3xl md:text-4xl font-bold"><NumberCounter end={51} delay={4}/></dt>
+        <dd className="mb-4 font-light text-black">Countries</dd>
+      </div>
+    </div>
+  </dl>
+</div>
+
+</div>
+
       </div>
     </section>
   );

@@ -25,10 +25,12 @@ const IndexPage = () => {
       <Fade duration={2000}><BlazzingSection /></Fade>
       <Fade duration={2000}> <DemoSection /></Fade>
       <DarkModeSection />
-      <CommunitySection />
+      
       <Fade duration={2000}><PricingSection /></Fade>
-      <Fade duration={2000}><AboutSection /></Fade>
       <Fade duration={2000}><FAQSection /></Fade>
+
+      <CommunitySection />
+      <Fade duration={2000}><AboutSection /></Fade>
       <Fade duration={1000}><FinalCTA /></Fade>
       <FooterSection />
     </>

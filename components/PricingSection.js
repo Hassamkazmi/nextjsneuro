@@ -31,7 +31,7 @@ const PricingSection = () => {
               One-time payment.
             </p>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-bold">$6.99</span>
+              <span className="mr-2 text-5xl font-bold">$9.99</span>
             </div>
             <hr className="border-1 border-gray-300 mb-8" />
             <ul role="list" className="mb-8 space-y-4 text-left">
@@ -56,33 +56,15 @@ const PricingSection = () => {
                 Built-in focus sounds.
               </li>
               <li>
-                <Image
-                  className="inline-block h-6 w-6 mr-2"
-                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/dark/check.svg"
-                  width={800} // Set the width of the image (you can adjust as needed)
-                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
-                  alt="Tick Icon"
-                />{" "}
-                AI-generation tutorials.
+              ❌
+                Access to community.
               </li>
               <li>
-                <Image
-                  className="inline-block h-6 w-6 mr-2"
-                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/dark/check.svg"
-                  width={800} // Set the width of the image (you can adjust as needed)
-                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
-                  alt="Tick Icon"
-                />{" "}
+              ❌
                 Tutorials included.
               </li>
-              <li className="text-red-700">
-                <Image
-                  className="inline-block h-6 w-6 mr-2"
-                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/multiply.webp"
-                  width={800} // Set the width of the image (you can adjust as needed)
-                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
-                  alt="Cross Icon"
-                />
+              <li className="text-black-700">
+              ❌
                 Access to updates.
               </li>
             </ul>
@@ -109,7 +91,7 @@ const PricingSection = () => {
               One-time payment.
             </p>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-bold">$9.99</span>
+              <span className="mr-2 text-5xl font-bold">$19.99</span>
             </div>
             <hr className="border-1 border-gray-300 mb-8" />
             <ul role="list" className="mb-8 space-y-4 text-left">
@@ -161,7 +143,7 @@ const PricingSection = () => {
                   height={566} // Set the height of the image (adjust for the aspect ratio of your image)
                   alt="Tick Icon"
                 />{" "}
-                Access to updates.
+                Community & Updates.
               </li>
             </ul>
             <a
@@ -172,6 +154,68 @@ const PricingSection = () => {
               Buy Now
             </a>
           </div>
+
+          <div className="flex flex-col p-6 w-80 md:w-72 text-center text-black bg-gray-200 rounded-2xl border border-gray-200 shadow-xl">
+            <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
+            <p className="font-light text-black sm:text-lg">
+              One-time payment.
+            </p>
+            <div className="flex justify-center items-baseline my-8">
+              <span className="mr-2 text-5xl font-bold">$44.99</span>
+            </div>
+            <hr className="border-1 border-gray-300 mb-8" />
+            <ul role="list" className="mb-8 space-y-4 text-left">
+              <li>
+                <Image
+                  className="inline-block h-6 w-6 mr-2"
+                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/dark/check.svg"
+                  width={800} // Set the width of the image (you can adjust as needed)
+                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
+                  alt="Tick Icon"
+                />{" "}
+                All benefits of Standard.
+              </li>
+              <li>
+                <Image
+                  className="inline-block h-6 w-6 mr-2"
+                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/dark/check.svg"
+                  width={800} // Set the width of the image (you can adjust as needed)
+                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
+                  alt="Tick Icon"
+                />{" "}
+                Access to exclusive ADHD Study Tips Newsletter.
+              </li>
+              <li>
+                <Image
+                  className="inline-block h-6 w-6 mr-2"
+                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/dark/check.svg"
+                  width={800} // Set the width of the image (you can adjust as needed)
+                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
+                  alt="Tick Icon"
+                />{" "}
+                1:1 15-minutes intro call with the founder.
+              </li>
+              <li>
+                <Image
+                  className="inline-block h-6 w-6 mr-2"
+                  src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/icon/dark/check.svg"
+                  width={800} // Set the width of the image (you can adjust as needed)
+                  height={566} // Set the height of the image (adjust for the aspect ratio of your image)
+                  alt="Tick Icon"
+                />{" "}
+                Early access to future tools and templates.
+              </li>
+             
+            </ul>
+            <a
+              href="https://buy.stripe.com/4gwaGP9vF9F84zmcMM"
+              className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+              onClick={logBasicPackageEvent}
+            >
+              Buy Now
+            </a>
+          </div>
+          
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ const DarkModeSection = () => {
       <Slide>
           <div className="py-8 pb-20 px-4 mx-auto max-w-screen-xl sm:pt-16 lg:px-56">
         <div className="max-w-screen-md mb-8 lg:mb-16 mx-auto text-center">
-          <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900">
+          <h2 className="mb-4 text-3xl tracking-tight font-bold text-gray-900">
            Blazing fast set-up. <br />
             Get up and running within 5 mins 🔥
           </h2>
@@ -18,10 +18,10 @@ const DarkModeSection = () => {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-6 text-gray-600">
                 
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <dl className="mt-10 max-w-xl space-y-4 text-base leading-7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
                   

@@ -25,13 +25,13 @@ body {
 .flex.flex-col.items-center.space-y-4.mt-4.add-class-head {
   flex-direction: row-reverse;
   display: flex;
-  width: 35vh;
+  width: 42vh;
   justify-content: space-between;
-  margin-top: -44px;
-  margin-left: 0px;
+  margin-top: -41px;
+  margin-left: 1px;
   background: #fff;
+  opacity: 1;
 }
-
 .header-section-1 {
   display: contents;
 }
@@ -52,3 +52,11 @@ body {
 .flex-12 {
   display: flex;
 }
+
+@media screen and (max-width: 480px) {
+  .newclass-1{
+    display: flex;
+    font-size: 14px;
+  }
+}
+
