@@ -16,7 +16,7 @@ const FAQSection = () => {
   return (
     <section id="faqs" className="bg-white mt-20 mb-20 FAQ_section">
       <div className="text-center">
-        <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800">Frequently Asked Questions</h2>
+        <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800 newtext-1">Frequently Asked Questions</h2>
         <p className="font-normal text-base leading-6 text-gray-800 lg:w-8/12 md:w-9/12 mx-auto">
           Answers to some commonly asked questions.
         </p>

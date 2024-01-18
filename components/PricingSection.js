@@ -16,7 +16,7 @@ const PricingSection = () => {
     <section id="pricing" className="bg-white payment_section mt-20 mb-20">
       <div className="py-8 px-4 md:px-52">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 className="mb-4 text-4xl tracking-tight font-bold text-black">
+          <h2 className="mb-4 text-4xl tracking-tight font-bold text-black newtext-1">
             One Payment, Unlimited Usage.
           </h2>
           <p className="mb-5 font-light text-gray-800 sm:text-xl">
@@ -81,7 +81,7 @@ const PricingSection = () => {
             
           
             <div
-              className="absolute top-0 right-0 px-3 py-1 bg-blue-600 rounded-bl rounded-tr text-white text-xs uppercase font-bold"
+              className="absolute top-0 right-0 px-3 py-1 bg-blue-600 rounded-bl rounded-tr text-white text-xs uppercase font-bold shimmer-effect"
               style={{ transform: "translate(25%, -50%)" }}
             >
               Most Popular

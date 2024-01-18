@@ -36,7 +36,7 @@ const FooterSection = () => {
       <a
         href="#!"
         onClick={scrollToTop}
-        className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-500 text-black rounded-full p-2 cursor-pointer"
+        className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-500 text-black rounded-full p-2 cursor-pointer new121"
         title="Scroll to Top"
       >
         <FaArrowUp size={24} />

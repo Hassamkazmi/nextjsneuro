@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
-import { Bounce } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const BenefitsSection = () => {
   return (
     <section id="features" className="bg-white benefits-section">
       <div className="py-8 pb-12 px-4 mx-auto max-w-screen-xl sm:pt-4 lg:px-56">
         <div className="max-w-screen-md mx-auto text-center mb-2 mt-2">
-          <h2 className="text-4xl tracking-tight font-bold text-gray-900">
+          <h2 className="text-4xl tracking-tight font-bold text-gray-900 newtext-1">
           💤 Silence the chaos <br /> Channel the flow state ✨
           </h2>
           <p className="mt-8 text-gray-600 sm:text-xl text-gray-700">
@@ -16,9 +16,9 @@ const BenefitsSection = () => {
           </p>
         </div>
 
-        <Bounce >
+        <Fade >
 
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 bg-gray-200 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <Image
             width={2432}
             height={1442}
@@ -72,10 +72,10 @@ const BenefitsSection = () => {
           </div>
           <div></div>
         </div>
-        </Bounce>
+        </Fade>
         <hr />
 
-        <Bounce>
+        <Fade>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
@@ -118,11 +118,11 @@ const BenefitsSection = () => {
           />
           <div></div>
         </div>
-        </Bounce>
+        </Fade>
         <hr />
 
-        <Bounce>
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <Fade>
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 bg-gray-100 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <Image
             width={2432}
             height={1442}
@@ -163,10 +163,10 @@ const BenefitsSection = () => {
           </div>
           <div></div>
         </div>
-        </Bounce>
+        </Fade>
         <hr />
 
-        <Bounce>
+        <Fade>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
@@ -208,7 +208,7 @@ const BenefitsSection = () => {
           />
           <div></div>
         </div>
-        </Bounce>
+        </Fade>
         <hr />
 
         {/* <div className="md:grid md:grid-cols-2 gap-x-16 gap-y-4 items-center">

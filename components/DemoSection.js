@@ -26,7 +26,7 @@ const DemoSection = () => {
   return (
     <section className="bg-gray-50 demo-section pt-10 mt-16">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16">
-        <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-4xl">A peek under the hood</h1>
+        <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-4xl newtext-1">A peek under the hood</h1>
         <p className="mb-4 text-sm font-normal text-black sm:px-16 lg:text-md md:px-48">Eliminate the struggles of being distracted when juggling programs and tabs. Ease into a streamlined experience.</p>
 
         <div className="inline-block p-0 border-8 border-gray-300 border-opacity-20 rounded-lg overflow-hidden">

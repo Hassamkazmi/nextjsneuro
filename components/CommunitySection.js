@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Bounce } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import NumberCounter from 'number-counter';
 
 const CommunitySection = () => {
@@ -8,12 +8,12 @@ const CommunitySection = () => {
     <section className="bg-gray-50 community-section">
       <div className="py-0 pb-0 px-4 mx-auto max-w-screen-xl pt-20">
         <div className="max-w-screen-md mb-2 lg:mb-16 mx-auto text-center">
-          <h2 className="mb-4 text-4xl tracking-tight font-bold text-black">Join our ADHD <br /> Study Buddy Community</h2>
+          <h2 className="mb-4 text-4xl tracking-tight font-bold text-black newtext-1">Join our ADHD <br /> Study Buddy Community</h2>
           <p className="mb-0 text-black">Access our exclusive community, find fellow ADHDers, learn effective study tools, and stay in the loop with updates and tutorials.</p>
         </div>
 
         {/* Image Container with Centering Classes */}
-        <Bounce>
+        <Fade>
         <div className="flex justify-center w-full">
           <Image 
             src={`https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/community_demo.webp?v=${new Date().getTime()}`} 
@@ -23,9 +23,9 @@ const CommunitySection = () => {
             className="mx-auto"
           />        
           </div>
-          </Bounce>
-          <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-16 lg:px-6">
-          <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-16 lg:px-6">
+          </Fade>
+          <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-5 lg:px-6">
+          <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-5 lg:px-6">
   <dl className="grid max-w-screen-md text-gray-900 sm:grid-cols-e md:grid-cols-3 gap-4 mx-auto justify-items-center newclass-1">
     <div className="sm:flex sm:flex-col md:block md:w-auto">
       <div className="flex flex-col items-center justify-center py-2 sm:w-full md:w-auto">

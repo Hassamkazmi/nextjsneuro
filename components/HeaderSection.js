@@ -64,11 +64,10 @@ const HeaderSection = () => {
     <header>
       {/* ... (your Facebook Pixel and SpeedInsights components) */}
       <div
-        className="full-header fixed top-0 left-0 right-0 lg:bg-opacity-30 lg:backdrop-blur-lg"
+        className="full-header fixed top-0 left-0 right-0 lg:bg-opacity-30 lg:backdrop-blur-lg bg-white"
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <nav className="px-8 py-5 lg:px-6 lg:bg-opacity-30 lg:backdrop-blur-lg"
-        style={{ backdropFilter: "blur(15px)" }}>
+        <nav className="px-8 py-5 lg:px-6 lg:bg-opacity-30 lg:backdrop-blur-lg">
           <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between" >
             <a href="#hero" className="flex items-center" onClick={scrollToTop}>
               <Image
