@@ -25,9 +25,9 @@ body {
 .flex.flex-col.items-center.space-y-4.mt-4.add-class-head {
   flex-direction: row-reverse;
   display: flex;
-  width: 42vh;
+  width: 31vh;
   justify-content: space-between;
-  margin-top: -41px;
+  margin-top: -46px;
   margin-left: 1px;
   background: #fff;
   opacity: 1;
@@ -91,7 +91,7 @@ img.newtext-image {
 .new121{
   --tw-bg-opacity: 1;
   background-color: white;
-  border: 1px solid #cdcdcd;
+  border: 1px solid #ffffff;
 }
 
 .newtext-1 {
@@ -102,3 +102,31 @@ h1.mb-6.text-4xl.font-bold.leading-none.tracking-tight.text-black.md\:text-5xl.l
 
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: -200%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+.shimmer-effect {
+  background: linear-gradient(90deg,  rgba(121, 119, 235, 0.8), rgba(32, 30, 158, 0.8), rgba(2, 2, 224, 0.8));
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+
+.fade-in {
+  opacity: 1;
+  max-height: 1000px; /* Adjust the maximum height as needed */
+  transition: opacity 0.5s ease-in, max-height 0.5s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
+}

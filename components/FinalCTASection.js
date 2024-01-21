@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade} from "react-awesome-reveal";
+import { IoStar } from "react-icons/io5";
 
 const FinalCTA = () => {
 
@@ -24,7 +25,7 @@ const FinalCTA = () => {
 
 
   return (
-    <section className="pt-20 pb-52 bg-gray-50 Final_CTA">
+    <section className="pt-10 pb-28 bg-gray-50 Final_CTA">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16">
 
         <Fade duration={1000}>
@@ -40,7 +41,7 @@ const FinalCTA = () => {
 
         {/* Star Rating */}
         <div className="mb-2 flex justify-center">
-          <span className="mt-4 mb-0 text-3xl leading-none text-black">⭐⭐⭐⭐⭐</span>
+          <span className="flex mt-4 mb-0 text-3xl leading-none text-black"><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/></span>
         </div>
         <span className="mt-0 mb-0 text-md text-gray-800">4.89/5 from 500+ ADHDers.</span>
         </Fade>

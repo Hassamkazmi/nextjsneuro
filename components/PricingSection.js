@@ -25,7 +25,7 @@ const PricingSection = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-4">
           {/* Pricing Card for Basic */}
-          <div className="flex flex-col p-6 w-80 md:w-72 text-center text-black bg-white rounded-2xl border border-gray-200 shadow-xl">
+          <div className="flex flex-col p-6 w-80 md:w-72 text-center text-black bg-white rounded-2xl border border-gray-200 mb-5 shadow-xl">
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
             <p className="font-light text-black sm:text-lg">
               One-time payment.
@@ -77,15 +77,15 @@ const PricingSection = () => {
             </a>
           </div>
           {/* Pricing Card for Standard */}
-          <div className="relative flex flex-col p-6 w-80 md:w-72 text-center text-white bg-black rounded-2xl border border-gray-200 shadow-xl mt-8 md:mt-0">
+          <div className="relative flex flex-col p-6 w-80 md:w-86 text-center text-white bg-black rounded-2xl border border-gray-200 shadow-xl mt-8  md:mt-0">
             
           
-            <div
-              className="absolute top-0 right-0 px-3 py-1 bg-blue-600 rounded-bl rounded-tr text-white text-xs uppercase font-bold shimmer-effect"
-              style={{ transform: "translate(25%, -50%)" }}
-            >
-              Most Popular
-            </div>
+          <div
+      className="absolute top-0 right-0 px-3 py-1 bg-blue-600 rounded-bl rounded-tr text-white text-xs uppercase font-bold shimmer-effect"
+      style={{ transform: "translate(25%, -50%)" }}
+    >
+      Most Popular
+    </div>
             <h3 className="mb-4 text-2xl font-semibold text-white">Standard</h3>
             <p className="font-light text-white sm:text-lg">
               One-time payment.
@@ -155,7 +155,7 @@ const PricingSection = () => {
             </a>
           </div>
 
-          <div className="flex flex-col p-6 w-80 md:w-72 text-center text-black bg-gray-200 rounded-2xl border border-gray-200 shadow-xl">
+          <div className="flex flex-col p-6 w-80 md:w-72 text-center text-black bg-gray-200 rounded-2xl border border-gray-200 mb-5 shadow-xl">
             <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
             <p className="font-light text-black sm:text-lg">
               One-time payment.

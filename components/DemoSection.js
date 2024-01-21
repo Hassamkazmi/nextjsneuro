@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { IoStar } from 'react-icons/io5';
 
 const DemoSection = () => {
 
@@ -24,7 +25,7 @@ const DemoSection = () => {
 
 
   return (
-    <section className="bg-gray-50 demo-section pt-10 mt-16">
+    <section className="bg-gray-50 demo-section pt-5 mt-5">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16">
         <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-4xl newtext-1">A peek under the hood</h1>
         <p className="mb-4 text-sm font-normal text-black sm:px-16 lg:text-md md:px-48">Eliminate the struggles of being distracted when juggling programs and tabs. Ease into a streamlined experience.</p>
@@ -41,11 +42,11 @@ const DemoSection = () => {
 
         {/* Stars */}
         <div className="mb-2 flex justify-center">
-          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl">★</span>
-          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl">★</span>
-          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl">★</span>
-          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl">★</span>
-          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl">★</span>
+          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl"><IoStar style={{color:"#FB8C00"}}/></span>
+          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl"><IoStar style={{color:"#FB8C00"}}/></span>
+          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl"><IoStar style={{color:"#FB8C00"}}/></span>
+          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl"><IoStar style={{color:"#FB8C00"}}/></span>
+          <span className="mt-3 mb-0 text-3xl leading-none text-black text-xl"><IoStar style={{color:"#FB8C00"}}/></span>
         </div>
 
         {/* Testimonial and Author Info */}

@@ -1,29 +1,35 @@
 import Image from 'next/image';
+import { useState } from 'react';
 import { Fade } from "react-awesome-reveal";
+import { IoStar } from "react-icons/io5";
 
 const HeroSection = () => {
 
-    const handleButtonClick = (e) => {
-      e.preventDefault(); // Prevent the default anchor behavior
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-            // Log the custom pixel event
-            logCustomPixelEvent('HeroBuyNowClick');
+  const handleButtonClick = (e) => {
+    e.preventDefault();
+    logCustomPixelEvent("HeaderBuyNowClick");
 
-
-      const pricingSection = document.getElementById('pricing');
-      if (pricingSection) {
-        const topPosition = pricingSection.offsetTop + (pricingSection.offsetHeight / 2) - (window.innerHeight / 2);
+    const pricingSection = document.getElementById("pricing");
+    if (pricingSection) {
+      const topPosition =
+        pricingSection.offsetTop +
+        pricingSection.offsetHeight / 2 -
+        window.innerHeight / 2;
         window.scrollTo({
-          top: topPosition,
-          behavior: 'smooth'
-        });
-      }
-    };
+        top: topPosition,
+        behavior: "smooth",
+      });
+    }
+    // Close the mobile menu after clicking the Buy Now button
+    setIsMobileMenuOpen(false);
+  };
 
 
   const logCustomPixelEvent = (eventName) => {
       // Log event to Facebook Pixel
-      fbq('trackCustom', 'HeroBuyNowClick');
+      // fbq('trackCustom', 'HeroBuyNowClick');
   };
 
 
@@ -39,14 +45,15 @@ const HeroSection = () => {
 
         <div className="mt-4 flex justify-center space-x-4">
         {/* Get NeuroNotes Button */}
-        <a href="#pricing" onClick={handleButtonClick} className="StandardCheckoutButton inline-block rounded-lg bg-black px-8 py-4 text-lg font-bold text-white hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300">
+        <a href="#pricing"
+              onClick={handleButtonClick} className="StandardCheckoutButton inline-block rounded-lg bg-black px-8 py-4 text-lg font-bold text-white hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300">
           Buy Now
         </a>
       </div>
 
         {/* Stars */}
         <div className="mb-2 flex justify-center">
-          <span className="mt-3 mb-0 text-3xl leading-none text-black">⭐⭐⭐⭐⭐</span>
+          <span className="flex mt-3 mb-0 text-3xl leading-none text-black"><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/><IoStar style={{color:"#FB8C00"}}/></span>
         </div>
         <span className="mt-0 mb-0 text-sm text-gray-800">
           4.82/5 from 1,300+ Students with ADHD.

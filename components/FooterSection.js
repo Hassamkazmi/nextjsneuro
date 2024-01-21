@@ -1,13 +1,29 @@
-import React from 'react';
+import React ,{useEffect, useState} from 'react';
 import Image from 'next/image';
 import { FaArrowUp } from 'react-icons/fa';
 
 const FooterSection = () => {
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+
+      // Adjust the threshold value as needed
+      const scrollThreshold = 50;
+
+      setShowScrollToTop(scrollY > scrollThreshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const scrollToTop = () => {
-    const heroSection = document.getElementById('hero');
-    if (heroSection) {
-      heroSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -34,13 +50,13 @@ const FooterSection = () => {
         </span>
       </div>
       <a
-        href="#!"
-        onClick={scrollToTop}
-        className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-500 text-black rounded-full p-2 cursor-pointer new121"
-        title="Scroll to Top"
-      >
-        <FaArrowUp size={24} />
-      </a>
+      href="#!"
+      onClick={scrollToTop}
+      className={`fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-500 text-black rounded-full p-2 cursor-pointer new121 ${showScrollToTop ? 'visible' : 'invisible'}`}
+      title="Scroll to Top"
+    >
+      <FaArrowUp size={24} />
+    </a>
     </footer>
   );
 };
