@@ -26,7 +26,7 @@ const FeaturesSection = () => {
 
             <Fade duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 newclass-forcss">
                           
                               <BsFillCalendarEventFill style={{ fontSize: '2.5em' , color:"#f55423" }}/>
               </div>
@@ -39,7 +39,7 @@ const FeaturesSection = () => {
             {/* Task Card 2 */}
             <Fade duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 newclass-forcss">
                               
                               <GiArtificialIntelligence style={{ fontSize: '2.5em' , color:"#f55423" }}/>
               </div>
@@ -52,7 +52,7 @@ const FeaturesSection = () => {
             {/* Task Card 3 */}
             <Fade  duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 newclass-forcss">
               <FaGraduationCap style={{ fontSize: '2.5em' , color:"#f55423" }}/>
               </div>
               <div className="pt-5 text-lg font-medium text-black">Easy Tutorials</div>
@@ -64,7 +64,7 @@ const FeaturesSection = () => {
             {/* Task Card 4 */}
             <Fade  duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 newclass-forcss">
 
                       <LiaBrushSolid style={{ fontSize: '2.5em' , color:"#f55423" }}/>      
               </div>
@@ -77,7 +77,7 @@ const FeaturesSection = () => {
             {/* Task Card 5 */}
             <Fade  duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 newclass-forcss">
                               <FaArrowRightArrowLeft style={{ fontSize: '2.5em' , color:"#f55423" }}/>
               </div>
               <div className="pt-5 text-lg font-medium text-black">Easy Migration</div>
@@ -87,7 +87,7 @@ const FeaturesSection = () => {
             {/* Task Card 6 */}
             <Fade duration={2000}>
             <div className="p-7 max-w-sm mx-auto bg-gray-50 rounded-lg shadow-md flex flex-col items-center">
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 newclass-forcss">
                              <RiFileList2Fill style={{ fontSize: '2.5em' , color:"#f55423" }}/>
               </div>
               <div className="pt-5 text-lg font-medium text-black">Centralized Storage</div>

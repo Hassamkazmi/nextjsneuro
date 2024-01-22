@@ -66,24 +66,30 @@ body {
 .pb-52 {
   padding-bottom: 2rem;
 }
+.hero-section {
+  margin-bottom: 0px;
+}
 
 .newtext-1 {
-  font-size: 1.8rem !important;
+  font-size: 1.5rem !important;
   text-align: center;
 
 }
 
 .newtext-2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 img.newtext-image {
-  width: 70%;
+  width: 55%;
   margin: auto;
-  margin-top: -3rem;
+  margin-top: -4rem;
+  margin-left: 4rem;
 }
-
+.faq-item{
+  padding: 15px 15px 2px 15px;
+}
 
 }
 
@@ -129,4 +135,9 @@ h1.mb-6.text-4xl.font-bold.leading-none.tracking-tight.text-black.md\:text-5xl.l
   max-height: 0;
   overflow: hidden;
   transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
+}
+.newclass-forcss{
+    background: #FDECEB;
+    padding: 14px;
+    border-radius: 50%;
 }

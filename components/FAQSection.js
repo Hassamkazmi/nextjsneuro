@@ -42,7 +42,7 @@ const FAQSection = () => {
       </div>
 
       {/* FAQ Item 1 */}
-      <div className={`bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[1] ? 'open' : ''}`} onClick={() => toggleFAQ(1)}>
+      <div className={`faq-item bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[1] ? 'open' : ''}`} onClick={() => toggleFAQ(1)}>
         <div className="flex justify-between items-center">
           <h3 className="font-semibold text-xl leading-5 text-gray-800">How does this work?</h3>
           {/* Plus Icon */}
@@ -57,7 +57,7 @@ const FAQSection = () => {
       </div>
 
       {/* FAQ Item 2 */}
-      <div className={`bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[2] ? 'open' : ''}`} onClick={() => toggleFAQ(2)}>
+      <div className={`faq-item bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[2] ? 'open' : ''}`} onClick={() => toggleFAQ(2)}>
         <div className="flex justify-between items-center">
           <h3 className="font-semibold text-xl leading-5 text-gray-800">Is this worth $10?</h3>
           {/* Plus Icon */}
@@ -72,7 +72,7 @@ const FAQSection = () => {
       </div>
 
       {/* FAQ Item 3 */}
-      <div className={`bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[3] ? 'open' : ''}`} onClick={() => toggleFAQ(3)}>
+      <div className={`faq-item bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[3] ? 'open' : ''}`} onClick={() => toggleFAQ(3)}>
         <div className="flex justify-between items-center">
           <h3 className="font-semibold text-xl leading-5 text-gray-800">Do I need Notion Premium?</h3>
           {/* Plus Icon */}
@@ -87,7 +87,7 @@ const FAQSection = () => {
       </div>
 
       {/* FAQ Item 4 */}
-      <div className={`bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[4] ? 'open' : ''}`} onClick={() => toggleFAQ(4)}>
+      <div className={`faq-item bg-gray-200 rounded-lg p-4 md:pb-1 md:pt-4 md:p-6 mb-6 max-w-md mx-auto cursor-pointer ${isOpen[4] ? 'open' : ''}`} onClick={() => toggleFAQ(4)}>
         <div className="flex justify-between items-center">
           <h3 className="font-semibold text-xl leading-5 text-gray-800">I have more questions!</h3>
           {/* Plus Icon */}

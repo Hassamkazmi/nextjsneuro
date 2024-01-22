@@ -1,4 +1,4 @@
-import React ,{useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { FaArrowUp } from 'react-icons/fa';
 
@@ -27,8 +27,8 @@ const FooterSection = () => {
   };
 
   return (
-    <footer className="p-4 bg-black md:p-8 lg:p-10">
-      <div className="mx-auto max-w-screen-xl text-center">
+    <footer className="p-4 bg-black md:p-8 lg:p-10 mobile-css-footer">
+      <div className="">
         <a href="#!" onClick={scrollToTop} className="flex justify-center items-center text-2xl font-semibold text-white cursor-pointer">
           <Image width={36} height={36} className="mr-3 sm:h-9" src="https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/logo.webp" alt="NeuroNotes Logo" />
           Neuro Notion ©

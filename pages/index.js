@@ -32,7 +32,9 @@ const IndexPage = () => {
       <CommunitySection />
       <Fade duration={2000}><AboutSection /></Fade>
       <Fade duration={1000}><FinalCTA /></Fade>
+      <Fade duration={1000}>
       <FooterSection />
+      </Fade>
     </>
   );
 };
