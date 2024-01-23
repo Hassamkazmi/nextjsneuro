@@ -10,7 +10,7 @@ const FooterSection = () => {
       const scrollY = window.scrollY;
 
       // Adjust the threshold value as needed
-      const scrollThreshold = 50;
+      const scrollThreshold = 80;
 
       setShowScrollToTop(scrollY > scrollThreshold);
     };

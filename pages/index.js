@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import Script from 'next/script';
+import React from 'react';
 import HeaderSection from '../components/HeaderSection';
 import HeroSection from '../components/HeroSection';
 import BenefitsSection from '../components/BenefitsSection';

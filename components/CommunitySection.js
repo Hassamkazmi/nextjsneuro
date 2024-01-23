@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Fade } from 'react-awesome-reveal';
+import {  Slide,Fade } from 'react-awesome-reveal';
 import NumberCounter from 'number-counter';
 import { useInView } from 'react-intersection-observer';
 
@@ -31,7 +31,7 @@ const CommunitySection = () => {
         </div>
 
         {/* Image Container with Centering Classes */}
-        <Fade>
+        <Slide direction='down'>
           <div className="flex justify-center w-full">
             <Image
               src={`https://raw.githubusercontent.com/joshiebudd/notionwidgets/main/community_demo.webp?v=${new Date().getTime()}`}
@@ -41,7 +41,7 @@ const CommunitySection = () => {
               className="mx-auto"
             />
           </div>
-        </Fade>
+        </Slide>
 
         <Fade>
           <div className="max-w-screen-xl px-4 py-1 mt-2 text-center lg:py-5 lg:px-6">

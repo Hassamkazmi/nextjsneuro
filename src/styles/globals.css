@@ -89,23 +89,26 @@ img.newtext-image {
 }
 .faq-item{
   padding: 15px 15px 2px 15px;
-}
+  margin: 15px;
 
 }
 
+}
 
-.new121{
+
+.new121 {
   --tw-bg-opacity: 1;
-  background-color: white;
+  background-color: #e3d4d4;
   border: 1px solid #ffffff;
+  color: #7d7d7d;
 }
 
 .newtext-1 {
   font-size: 2.25rem;
 }
+
 h1.mb-6.text-4xl.font-bold.leading-none.tracking-tight.text-black.md\:text-5xl.lg\:text-6xl.newtext-1{
   font-size: 2.25rem;
-
 }
 
 @keyframes shimmer {
@@ -137,7 +140,7 @@ h1.mb-6.text-4xl.font-bold.leading-none.tracking-tight.text-black.md\:text-5xl.l
   transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
 }
 .newclass-forcss{
-    background: #FDECEB;
+    background: #c4b1b0;
     padding: 14px;
     border-radius: 50%;
 }
